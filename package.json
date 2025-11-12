@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": { "node": ">=18 <23" },
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "tsc -b && vite build",
@@ -16,8 +17,8 @@
     "@fullcalendar/react": "^5.11.5",
     "@fullcalendar/timegrid": "^5.11.5",
     "axios": "^1.13.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
@@ -25,8 +26,8 @@
     "@tailwindcss/postcss": "^4.1.16",
     "@types/axios": "^0.9.36",
     "@types/node": "^24.6.0",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22",
     "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.36.0",
